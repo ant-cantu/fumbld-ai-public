@@ -10,21 +10,29 @@ This AI-powered software helps you make smarter fantasy football decisions.
 It analyzes both your roster and your opponent's roster against current player 
 stats to provide personalized start/sit recommendations each week.
 
-## Tech Stack
+## 💻 Tech Stack
 
-![Static Badge](https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python&logoColor=fffb00&logoSize=auto) ![Static Badge](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white&logoSize=auto) ![Static Badge](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&logoSize=auto) ![Static Badge](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css&logoColor=white&logoSize=auto)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&logoWidth=20)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&logoWidth=20)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&logoWidth=20)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&logoWidth=20)
 
-## Frameworks
+## 🧩 Frameworks
 
-![Static Badge](https://img.shields.io/badge/Flask-blue?style=for-the-badge&logo=flask&logoSize=auto)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white&logoWidth=20)
 
-## API's
+## 🔌 APIs
 
-![Static Badge](https://img.shields.io/badge/OpenAI-gray?style=for-the-badge&logo=openai&logoSize=auto) ![Static Badge](https://img.shields.io/badge/Yahoo!%20Sports-purple?style=for-the-badge&logoSize=auto)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white&logoWidth=20)
+![Yahoo! Sports](https://img.shields.io/badge/Yahoo!%20Sports-6001D2?style=for-the-badge&logo=yahoo&logoColor=white&logoWidth=20)
 
-## Libraries & Extensions
+## 📚 Libraries & Extensions
 
-![Static Badge](https://img.shields.io/badge/SQAlchemy-red?style=for-the-badge&logo=sqlalchemy&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/WTForms-black?style=for-the-badge&logo=formspree&logoColor=black&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/Session-Flask_Login-purple?style=for-the-badge&logoSize=auto) ![Static Badge](https://img.shields.io/badge/Security-Werkzeug-darkorange?style=for-the-badge&logoSize=auto)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-CA1F2C?style=for-the-badge&logo=sqlalchemy&logoColor=white&logoWidth=20)
+![WTForms](https://img.shields.io/badge/WTForms-000000?style=for-the-badge&logo=formspree&logoColor=white&logoWidth=20)
+![Flask-Login](https://img.shields.io/badge/Flask--Login-000000?style=for-the-badge&logo=flask&logoColor=white&logoWidth=20)
+![Werkzeug](https://img.shields.io/badge/Werkzeug-FF6F00?style=for-the-badge)
+
 
 ## Source Code:
 > Source code available upon request.
