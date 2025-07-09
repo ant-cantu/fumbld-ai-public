@@ -1,7 +1,7 @@
 # Fumbld AI (Source Available Upon Request)
 
 <p align="center">
-<img src="https://github.com/ant-cantu/fumbld-ai/blob/main/source/static/img/fumbld-small-logo.png?raw=true" height="50%" width="75%">
+<img src="https://github.com/ant-cantu/fumbld-ai/blob/main/source/static/img/fumbld-small-logo.png?raw=true" width="75%">
 </p>
 
 ## About Fumbld AI
