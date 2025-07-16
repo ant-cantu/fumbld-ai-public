@@ -23,7 +23,7 @@ Fumbld AI is a Flask web application that helps fantasy football managers make i
 
 ### 🔌 APIs
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white&logoWidth=20)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white&logoWidth=20)
 ![Yahoo! Sports](https://img.shields.io/badge/Yahoo!%20Sports-6001D2?style=for-the-badge&logo=yahoo&logoColor=white&logoWidth=20)
 
 ### 📚 Libraries & Extensions
