@@ -25,6 +25,8 @@ Fumbld AI is a Flask web application that helps fantasy football managers make i
 
 ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white&logoWidth=20)
 ![Yahoo! Sports](https://img.shields.io/badge/Yahoo!%20Sports-6001D2?style=for-the-badge&logo=yahoo&logoColor=white&logoWidth=20)
+![Sleeper](https://img.shields.io/badge/Sleeper%20-%20%23233354?style=for-the-badge&logoWidth=20)
+
 
 ### 📚 Libraries & Extensions
 
@@ -37,15 +39,18 @@ Fumbld AI is a Flask web application that helps fantasy football managers make i
 
 ## The application follows a straightforward workflow:
 1. **User Authentication** – Manage user accounts and sessions with Flask‑Login.
-2. **Yahoo Integration** – Authorize access to your fantasy league using Yahoo's OAuth flow and store tokens securely with SQLAlchemy.
-3. **Roster Analysis** – Retrieves current league data and stores roster information in the user’s database to reduce the number of API calls.
-4. **AI Recommendations** – Sends aggregated data to OpenAI’s API to generate lineup recommendations, displaying the suggested roster in a table along with the rationale behind each selection.
-5. **Dashboard Display** – Present the AI's suggestions in a clean web interface.
+2. **PostgreSQL** - Manages all database needs including user profiles, yahoo sports authentication tokens, yahoo sports league data, and sleeper league data.
+3. **Yahoo Integration** – Authorize access to your fantasy league using Yahoo's OAuth flow and store tokens securely with SQLAlchemy.
+4. **Sleeper Integration** - Integration of Sleeper API allowing access to your fantasy league using only your username, stores data in the PostgreSQL database.
+5. **Roster Analysis** – Retrieves current league data and stores roster information in the user’s database to reduce the number of API calls.
+6. **AI Recommendations** – Sends aggregated data to Google Gemini’s API to generate lineup recommendations, displaying the suggested roster in a user-friendly table along with the rationale behind each selection.
+7. **Dashboard Display** – Displays the currently selected league in a user-friendly web interface, separating your starters from your benched players.
 
 ## Features
 - User registration and authentication using **Flask-Login**
 - Yahoo Fantasy Sports integration with OAuth2
-- AI insights powered by **OpenAI GPT**
+- Sleeper integration
+- AI insights powered by **Gemini**
 - Dashboard to view your roster and AI recommendations
 - Google reCAPTCHA for form protection
 
