@@ -59,23 +59,28 @@ Fumbld AI is a Flask web application that helps fantasy football managers make i
 
 ## Preview
 
+### Desktop Preview
+<img width="1536" height="1024" alt="desktop-fumbld-ai" src="https://github.com/user-attachments/assets/6b1a4bd5-89fc-4297-be5f-836691855368" />
+
+### Mobile Preview
+<img width="1536" height="1024" alt="mobile-fumbld-ai" src="https://github.com/user-attachments/assets/4cee8488-ed91-4de3-817d-69c15f7a83e7" />
+
 ### Home Page
 ![image](https://github.com/user-attachments/assets/e3a126f3-9d89-4da2-95b5-ed2179e4b9ae)
 
 ### Login Page
-![image](https://github.com/user-attachments/assets/6dc2fd9a-1048-4e4a-b884-f43b13bb8c49)
+![image](https://github.com/user-attachments/assets/9e282bae-6146-4fff-8f7f-c0778382ae8c)
 
 ### Registration Page
-![image](https://github.com/user-attachments/assets/eb267dab-fc82-4a31-8703-8306256192ae)
+![image](https://github.com/user-attachments/assets/fb784bfa-e0ad-4c4a-99fc-9e975e2d197d)
 
 ### Dashboard - Main
-![image](https://github.com/user-attachments/assets/2f2bd647-2a59-4665-8bc4-78fea9dddeb9)
+![image](https://github.com/user-attachments/assets/40581aaf-c6cc-4583-a692-413b6e70fd3f)
 
 ### Dashboard - Fumbld AI
-![image](https://github.com/user-attachments/assets/55f1e272-92f9-4539-bdab-34b0d9e18e28)
+![image](https://github.com/user-attachments/assets/3c046e16-4996-4c1c-bf29-8fff21569b11)
 
 ### Dashboard - Settings (Work In Progress)
 ![image](https://github.com/user-attachments/assets/7454ecff-2be9-46fb-9d0a-8c75fc13206f)
-
 
 
