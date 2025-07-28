@@ -1,4 +1,4 @@
-# Fumbld AI (Source Available Upon Request)
+# <a href="https://fumbldai.com">Fumbld AI</a> (Source Available Upon Request)
 
 <p align="center">
 <img src="https://github.com/ant-cantu/fumbld-ai/blob/main/source/static/img/fumbld-small-logo.png?raw=true" width="75%">
@@ -37,22 +37,34 @@ Fumbld AI is a Flask web application that helps fantasy football managers make i
 
 ***
 
-## The application follows a straightforward workflow:
-1. **User Authentication** – Manage user accounts and sessions with Flask‑Login.
-2. **PostgreSQL** - Manages all database needs including user profiles, yahoo sports authentication tokens, yahoo sports league data, and sleeper league data.
-3. **Yahoo Integration** – Authorize access to your fantasy league using Yahoo's OAuth flow and store tokens securely with SQLAlchemy.
-4. **Sleeper Integration** - Integration of Sleeper API allowing access to your fantasy league using only your username, stores data in the PostgreSQL database.
-5. **Roster Analysis** – Retrieves current league data and stores roster information in the user’s database to reduce the number of API calls.
-6. **AI Recommendations** – Sends aggregated data to Google Gemini’s API to generate lineup recommendations, displaying the suggested roster in a user-friendly table along with the rationale behind each selection.
-7. **Dashboard Display** – Displays the currently selected league in a user-friendly web interface, separating your starters from your benched players.
-
 ## Features
 - User registration and authentication using **Flask-Login**
+  - Integrated PostgreSQL as a means to safe user profiles
+  - Passwords are never stored as plain text instead they are encrypted and decrypted upon use
+ 
+- Protected routes - making sure use is authorized to access the feature
+  - Major API endpoints are protected via Flask-Login, users are required to be logged in before an endpoint can be used
+  
 - Yahoo Fantasy Sports integration with OAuth2
-- Sleeper integration
-- AI insights powered by **Gemini**
-- Dashboard to view your roster and AI recommendations
+   - Users are able to authorize their Yahoo! Sports account to automatically bring league data into Fumbld AI
+     
+- Sleeper integration via Sleeper API, using a Sleeper username
+   - Sleeper API does not require authentication as it is a read-only API. Users are able to import league data by simply entering their username
+     
+- Fumbld AI insights powered by **Gemini**
+   - Roster data is extracted from Yahoo! Sports or Sleeper and processed through the Gemini API using prompt engineering to generate start/sit recommendations
+   - Recommendation is shown to the user in a user-friendly formatted table along with the reason as to why Gemini made those recommendations
+     
+- Dashboard to view your currently set roster and the NFL schedule for the week
+  - Main dashboard module will allow you to select which service (Yahoo! or Sleeper) and the league you want to view/process AI functions with
+    
 - Google reCAPTCHA for form protection
+  - Google reCAPTCHA form used for protecting registration and login abuse
+    
+- Flask-limiter for rate limiting
+   - Protects the login form from brute force attacks
+   - Protects our external API endpoints from being abused
+   - Protects our internal API endpoints from being abused
 
 ## Source Code:
 > To protect the source code, it is available upon request to prospective employers only.
