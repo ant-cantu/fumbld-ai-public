@@ -1,7 +1,7 @@
 # <a href="https://fumbldai.com">Fumbld AI</a> (Source Available Upon Request)
 
 <p align="center">
-<img src="https://github.com/ant-cantu/fumbld-ai/blob/main/source/static/img/fumbld-small-logo.png?raw=true" width="75%">
+<img width="75%" alt="fumbld-small-logo" src="https://github.com/user-attachments/assets/2f1afe7a-cd23-4555-b292-176ed3fb2894" />
 </p>
 
 ## About Fumbld AI
@@ -70,6 +70,8 @@ Fumbld AI is a Flask web application that helps fantasy football managers make i
 > To protect the source code, it is available upon request to prospective employers only.
 
 ## Preview
+
+Please <a href="https://fumbldai.com">click here</a> to preview Fumbld AI
 
 ### Desktop Preview
 <img width="1536" height="1024" alt="desktop-fumbld-ai" src="https://github.com/user-attachments/assets/6b1a4bd5-89fc-4297-be5f-836691855368" />
